@@ -58,11 +58,6 @@ BMPMY* Read_file(char* filename, int* return_value) {
     else if (bmp->Header.Height == 0) {
         fprintf(stdout, "Height error. Height must not be equal to 0\n");
     }
-    /*
-    else if (height_mult_width != bmp->Header.SizeImage) {
-        fprintf(stdout, "Height or width error. Height * Width must be equal number of pixels\n");
-    }
-    */
     else if (bmp->Header.Planes != 1) {
         fprintf(stdout, "Planes error. Planes must be equal to 1\n"); 
     }
