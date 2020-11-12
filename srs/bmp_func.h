@@ -54,3 +54,4 @@ void Write_file(BMPMY* new_image, char* name_of_new_file);
 void free_bmp(BMPMY *bmp);
 
 #endif
+
